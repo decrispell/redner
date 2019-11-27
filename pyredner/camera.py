@@ -1,6 +1,6 @@
 import numpy as np
 import torch
-import pyredner.transform as transform
+from . import transform
 import redner
 
 class Camera:
